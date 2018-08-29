@@ -1,4 +1,6 @@
 use std::fmt;
+use std::string::String;
+
 
 /// A representation of all key types typical Value types will assume.
 #[derive(Debug, Clone, PartialEq, Eq, Ord, PartialOrd)]

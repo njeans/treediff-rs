@@ -2,6 +2,8 @@ use traitdef::{Mutable, Value};
 use super::Key;
 use serde_json::{map, Map, Value as SerdeJson};
 use std::mem;
+use std::vec::Vec;
+use std::boxed::Box;
 
 impl Value for SerdeJson {
     type Item = SerdeJson;

@@ -19,6 +19,7 @@
 //! [diff-tests]: https://github.com/Byron/treediff-rs/blob/master/tests/diff.rs
 //! [merge-tests]: https://github.com/Byron/treediff-rs/blob/master/tests/merge.rs
 #![deny(missing_docs)]
+#![no_std]
 #[cfg(feature = "with-rustc-serialize")]
 extern crate rustc_serialize;
 #[cfg(feature = "with-serde-json")]
@@ -27,6 +28,8 @@ extern crate serde_json;
 extern crate serde_yaml;
 #[cfg(feature = "with-yaml-rust")]
 extern crate yaml_rust;
+
+extern crate sgx_tstd as std;
 
 mod traitdef;
 mod diff;

@@ -3,6 +3,7 @@ use std::fmt::Display;
 use std::borrow::Cow;
 use std::borrow::BorrowMut;
 use std::marker::PhantomData;
+use std::vec::Vec;
 
 /// A `Delegate` which applies differences to a target object.
 ///

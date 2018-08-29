@@ -1,4 +1,5 @@
 use traitdef::Delegate;
+use std::vec::Vec;
 
 /// Identifies a type of change at a given Key path, for use with the `Recorder`.
 ///

@@ -1,3 +1,5 @@
+use std::boxed::Box;
+
 /// Represents a scalar value or an associative array.
 pub trait Value: PartialEq<Self> {
     /// The Key type used to find Values in a mapping.
