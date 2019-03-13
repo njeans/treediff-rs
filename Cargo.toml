@@ -10,13 +10,12 @@ repository = "https://github.com/Byron/treediff-rs"
 version = "3.0.1"
 
 [dependencies]
-rustc-serialize = {version = "0.3.22", optional = true}
-serde_json = { git = "https://github.com/baidu/rust-sgx-sdk.git", rev = "v1.0.4", optional = true }
 serde_yaml = {version = "0.7", optional = true}
 yaml-rust = {version = "0.4", optional = true}
 
-sgx_tstd = { git = "https://github.com/baidu/rust-sgx-sdk.git", rev = "v1.0.4" }
-
+sgx_tstd = { git = "https://github.com/baidu/rust-sgx-sdk.git", rev = "v1.0.6" }
+serde_json = { git = "https://github.com/baidu/rust-sgx-sdk.git", rev = "v1.0.6", optional = true }
+rustc-serialize = { git = "https://github.com/baidu/rust-sgx-sdk.git", rev = "v1.0.6", optional = true }
 
 [features]
 with-rustc-serialize = ["rustc-serialize"]
