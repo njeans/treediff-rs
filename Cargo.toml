@@ -11,11 +11,11 @@ version = "3.0.1"
 
 [dependencies]
 rustc-serialize = {version = "0.3.22", optional = true}
-serde_json = { git = "https://github.com/enigmampc/serde-json-sgx.git", rev = "1.0.39-sgx-1.0.9", optional = true }
+serde_json = { git = "https://github.com/enigmampc/serde-json-sgx.git", rev = "1.0.40-sgx-1.1.0", optional = true }
 serde_yaml = {version = "0.7", optional = true}
 yaml-rust = {version = "0.4", optional = true}
 
-sgx_tstd = { git = "https://github.com/baidu/rust-sgx-sdk.git", rev = "v1.0.9" }
+sgx_tstd = { git = "https://github.com/apache/teaclave-sgx-sdk.git", rev = "v1.1.0" }
 
 
 [features]
